@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CrittercismSDK-crashonly/*.h'
   s.preserve_paths = 'CrittercismSDK-crashonly/libCrittercism_v3_3_4.a'
-  s.library = 'Crittercism_v3_3_4'
+  s.library = 'CrittercismCrashOnly_v3_3_4'
   s.xcconfig = {'LIBRARY_SEARCH_PATHS'=>"\"$(SRCROOT)/Pods/**\""}  
   s.author = {'Crittercism' => 'www.crittercism.com'}
   s.homepage = 'www.crittercism.com'

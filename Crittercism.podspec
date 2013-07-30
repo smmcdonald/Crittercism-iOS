@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Crittercism"
-  s.version      = "3.3.4"
+  s.version      = "4.0.5"
   s.summary      = "Realtime app crash reporting."
   s.source       = { :git => "git@github.com:willowtreeapps/Crittercism-iOS.git", :tag => "4.0.5" }
 

@@ -19,7 +19,8 @@
 		2E363E3C1552578E002812A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E363E3A1552578E002812A5 /* QuartzCore.framework */; };
 		2E363E3D1552578E002812A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E363E3B1552578E002812A5 /* SystemConfiguration.framework */; };
 		2E363E3F15525949002812A5 /* crittercism-hamster-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E363E3E15525949002812A5 /* crittercism-hamster-57.png */; };
-		64E6C3A2160AC3B40077FFD3 /* libCrittercismCrashOnly_v3_3_4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E6C3A1160AC3B40077FFD3 /* libCrittercismCrashOnly_v3_3_4.a */; };
+		33DACA0B17A809C30084F372 /* dsym_upload.sh in Resources */ = {isa = PBXBuildFile; fileRef = 33DACA0917A809C30084F372 /* dsym_upload.sh */; };
+		33DACA0C17A809C30084F372 /* libCrittercism_v4_0_5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DACA0A17A809C30084F372 /* libCrittercism_v4_0_5.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,10 @@
 		2E363E3A1552578E002812A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2E363E3B1552578E002812A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2E363E3E15525949002812A5 /* crittercism-hamster-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crittercism-hamster-57.png"; sourceTree = "<group>"; };
+		33DACA0717A809C30084F372 /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRFilter.h; path = "CrittercismExampleApp/CrittercismSDK-crashonly/CRFilter.h"; sourceTree = "<group>"; };
+		33DACA0817A809C30084F372 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrittercismDelegate.h; path = "CrittercismExampleApp/CrittercismSDK-crashonly/CrittercismDelegate.h"; sourceTree = "<group>"; };
+		33DACA0917A809C30084F372 /* dsym_upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = dsym_upload.sh; path = "CrittercismExampleApp/CrittercismSDK-crashonly/dsym_upload.sh"; sourceTree = "<group>"; };
+		33DACA0A17A809C30084F372 /* libCrittercism_v4_0_5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCrittercism_v4_0_5.a; path = "CrittercismExampleApp/CrittercismSDK-crashonly/libCrittercism_v4_0_5.a"; sourceTree = "<group>"; };
 		6457B23F1602BD1300F22F0E /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
 		6457B2401602BD1300F22F0E /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
 		6457B2411602BD1300F22F0E /* CrittercismJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismJSONKit.h; sourceTree = "<group>"; };
@@ -69,7 +74,6 @@
 		6457B25A1602BD1300F22F0E /* PLCrashReportThreadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashReportThreadInfo.h; sourceTree = "<group>"; };
 		6457B25B1602BD1300F22F0E /* PLCrashSignalHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashSignalHandler.h; sourceTree = "<group>"; };
 		6457B25C1602BD1300F22F0E /* PLCrashSysctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashSysctl.h; sourceTree = "<group>"; };
-		64E6C3A1160AC3B40077FFD3 /* libCrittercismCrashOnly_v3_3_4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCrittercismCrashOnly_v3_3_4.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,7 @@
 				2E363D61155256A8002812A5 /* UIKit.framework in Frameworks */,
 				2E363D63155256A8002812A5 /* Foundation.framework in Frameworks */,
 				2E363D65155256A8002812A5 /* CoreGraphics.framework in Frameworks */,
-				64E6C3A2160AC3B40077FFD3 /* libCrittercismCrashOnly_v3_3_4.a in Frameworks */,
+				33DACA0C17A809C30084F372 /* libCrittercism_v4_0_5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +96,10 @@
 		2E363D51155256A8002812A5 = {
 			isa = PBXGroup;
 			children = (
+				33DACA0717A809C30084F372 /* CRFilter.h */,
+				33DACA0817A809C30084F372 /* CrittercismDelegate.h */,
+				33DACA0917A809C30084F372 /* dsym_upload.sh */,
+				33DACA0A17A809C30084F372 /* libCrittercism_v4_0_5.a */,
 				2E363E3E15525949002812A5 /* crittercism-hamster-57.png */,
 				2E363E3A1552578E002812A5 /* QuartzCore.framework */,
 				2E363E3B1552578E002812A5 /* SystemConfiguration.framework */,
@@ -148,7 +156,6 @@
 		6457B23E1602BD1300F22F0E /* CrittercismSDK-crashonly */ = {
 			isa = PBXGroup;
 			children = (
-				64E6C3A1160AC3B40077FFD3 /* libCrittercismCrashOnly_v3_3_4.a */,
 				6457B23F1602BD1300F22F0E /* CrashReporter.h */,
 				6457B2401602BD1300F22F0E /* Crittercism.h */,
 				6457B2411602BD1300F22F0E /* CrittercismJSONKit.h */,
@@ -236,6 +243,7 @@
 				2E363D74155256A8002812A5 /* MainWindow.xib in Resources */,
 				2E363D7A155256A8002812A5 /* CrittercismExampleAppViewController.xib in Resources */,
 				2E363E3F15525949002812A5 /* crittercism-hamster-57.png in Resources */,
+				33DACA0B17A809C30084F372 /* dsym_upload.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

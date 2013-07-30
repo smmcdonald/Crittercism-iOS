@@ -26,8 +26,8 @@
 //  #####  Initialize Crittercism (this is the init code for the example project)
 //  #####  View the data here: https://www.crittercism.com/developers/demo
 // ******
-    
-    [Crittercism initWithAppID:@"4ce2d43766d78766a1000013" andMainViewController:nil andDelegate:_viewController];
+
+    [Crittercism enableWithAppID:@"4ce2d43766d78766a1000013" andDelegate:_viewController];
     
     return YES;
 }
